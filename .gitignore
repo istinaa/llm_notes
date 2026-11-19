@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# 密钥
+.env
+
+# 大文件：权重、数据集、压测原始输出
+*.pth
+*.pt
+*.safetensors
+*.bin
+data/
